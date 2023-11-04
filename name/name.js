@@ -11,7 +11,7 @@ document.getElementById('submitBtn').addEventListener('click', function() {
         localStorage.setItem('user_name', name);
         
         // Redirect to the next page
-        window.location.href = '../game/game.html';
+        window.location.href = 'https://emperorkp.github.io/ca-2/game/game.html';
     }
 });
 

@@ -2,5 +2,5 @@ var click = document.getElementById("retry");
 
 
 click.addEventListener("click", function() {  
-    window.location.href = '../game/game.html'; 
+    window.location.href = 'https://emperorkp.github.io/ca-2//game/game.html'; 
 });
