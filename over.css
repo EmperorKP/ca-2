@@ -16,7 +16,7 @@ body{
 }
 #go{
     position: relative;
-    margin-top: 31%;
+    margin-top: 20%;
 }
 .score{
     display: flex;
@@ -27,6 +27,9 @@ body{
     width: 1000px;
     display: flex;
     justify-content:space-evenly ;
+}
+h2:hover{
+    color:black;
 }
 @media screen and (max-width: 720px) {
     img{

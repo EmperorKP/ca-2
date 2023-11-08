@@ -190,10 +190,12 @@ function animate(timestamp) {
                 platformHeight + 100 + (window.innerHeight - canvasHeight) / 2;
                 bgm.pause()
                 rem.play()
+                
             if (heroY > maxHeroY) {
 
                 
                 localStorage.setItem("score", score );
+                rem.pause()
                 window.location.href = './over.html';
         
                  // This line may not be necessary, depending on your use case.
